@@ -11,7 +11,7 @@ buildscript {
         }
 
         dependencies {
-            classpath 'com.android.tools.build:gradle:7.4.2'
+            classpath 'com.android.tools.build:gradle:8.2.1'
 
         }
     }
@@ -85,13 +85,13 @@ android {
 }
 
 repositories {
-    mavenCentral()
     google()
+    mavenCentral()
 }
 
 dependencies {
     testImplementation 'junit:junit:4.13.2'
-    compileOnly 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-android:0.72.7'
     implementation "com.newrelic.agent.android:android-agent:${ReactNative.ext.getVersion("newrelic", "android")}"
     implementation "com.newrelic.agent.android:agent-ndk:${ReactNative.ext.getVersion("newrelic", "ndk")}"
     implementation "com.squareup.okhttp3:okhttp:4.9.1"

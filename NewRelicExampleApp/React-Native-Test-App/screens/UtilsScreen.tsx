@@ -56,9 +56,9 @@ const UtilsScreen = () => {
 
   function recordError() {
     try {
-      var foo = {};
+      const foo: any = {};
       foo.bar();
-    } catch (e) {
+    } catch (e: any) {
       NewRelic.recordError(e);
     }
   }

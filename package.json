@@ -59,6 +59,7 @@
     "@babel/core": "^7.16.7",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
+    "@tsconfig/node12": "^12.1.0",
     "@types/jest": "^24.9.1",
     "@types/node": "^18.11.18",
     "ansi-regex": ">=5.0.1",

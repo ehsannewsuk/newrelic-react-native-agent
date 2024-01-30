@@ -2051,6 +2051,11 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
+"@tsconfig/node12@^12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node12/-/node12-12.1.0.tgz#cec056d4fbcf4eab73e9ff06cad3755ea2f61178"
+  integrity sha512-kdeyUs2jy6iHVq8H27ymIE1a/ci7LjEw9VvXtvP8FKr0QptiEoM30oPy8XFfcWiPdcd2VzYdCGMYwow+K+guXA==
+
 "@types/babel__core@^7.1.0", "@types/babel__core@^7.1.14":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.5.tgz#3df15f27ba85319caa07ba08d0721889bb39c017"
